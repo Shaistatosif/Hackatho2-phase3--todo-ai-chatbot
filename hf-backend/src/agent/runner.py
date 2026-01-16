@@ -13,7 +13,9 @@ client = OpenAI(api_key=OPENAI_API_KEY)
 
 async def run_agent(user_id: str, message: str, history: list[dict], session: Session) -> tuple[str, list]:
     """Run agent with message. Returns (response, tool_calls)."""
-    messages = [{"role": "system", "content": SYSTEM_PROMPT}] + history + [{"role": "user", "content": message}]
+    # Include user_id in system prompt so the agent knows who it's helping
+    system_with_user = f"{SYSTEM_PROMPT}\n\n## Current User\nYou are helping user with ID: {user_id}. You already have their user ID, so you can directly use the tools without asking for it."
+    messages = [{"role": "system", "content": system_with_user}] + history + [{"role": "user", "content": message}]
     tools = get_tool_definitions()
     tool_calls_made = []
 
