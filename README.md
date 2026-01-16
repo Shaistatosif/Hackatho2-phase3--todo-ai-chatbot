@@ -103,7 +103,7 @@ AUTH_SECRET=your-secret-key-32-chars
 
 ## Screenshots
 
-![Todo AI Chatbot Screenshot](https://via.placeholder.com/800x500/0B0F14/7C7CFF?text=Todo+AI+Chatbot+-+Screenshot+Coming+Soon)
+![Todo AI Chatbot Screenshot](./screenshot.png)
 
 *Dark theme with galaxy-inspired UI, animated robot mascot, and intuitive chat interface.*
 
