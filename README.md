@@ -4,10 +4,18 @@
 
 An intelligent chatbot application that lets you manage your todo list through natural conversation. Built with FastAPI, Next.js, and the Model Context Protocol (MCP).
 
-[![Production Ready](https://img.shields.io/badge/status-production%20ready-green)](https://github.com/your-repo)
+[![Production Ready](https://img.shields.io/badge/status-production%20ready-green)](https://github.com/Shaistatosif/Hackatho2-phase3--todo-ai-chatbot)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Node.js 20+](https://img.shields.io/badge/node-20+-green.svg)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+## 🌐 Live Demo
+
+| Service | URL |
+|---------|-----|
+| **Frontend** | https://frontend-psi-eosin-17.vercel.app |
+| **Backend API** | https://shaista-tosif-todo-ai-backend.hf.space |
+| **API Docs** | https://shaista-tosif-todo-ai-backend.hf.space/docs |
 
 ---
 
@@ -40,8 +48,8 @@ An intelligent chatbot application that lets you manage your todo list through n
 
 ```bash
 # Clone repository
-git clone <repository-url>
-cd Hackathon2-phase3
+git clone https://github.com/Shaistatosif/Hackatho2-phase3--todo-ai-chatbot.git
+cd Hackatho2-phase3--todo-ai-chatbot
 
 # Create environment files
 cp backend/.env.example backend/.env
