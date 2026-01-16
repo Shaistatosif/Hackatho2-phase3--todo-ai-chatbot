@@ -6,13 +6,13 @@
   "outputDirectory": ".next",
   "regions": ["iad1"],
   "env": {
-    "NEXT_PUBLIC_API_URL": "https://placeholder-backend.hf.space",
+    "NEXT_PUBLIC_API_URL": "https://shaista-tosif-todo-ai-backend.hf.space",
     "AUTH_SECRET": "this-is-a-placeholder-secret-key-32chars",
     "NEXT_PUBLIC_APP_URL": "https://frontend-tau-three-31.vercel.app"
   },
   "build": {
     "env": {
-      "NEXT_PUBLIC_API_URL": "https://placeholder-backend.hf.space",
+      "NEXT_PUBLIC_API_URL": "https://shaista-tosif-todo-ai-backend.hf.space",
       "AUTH_SECRET": "this-is-a-placeholder-secret-key-32chars"
     }
   },
