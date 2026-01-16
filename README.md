@@ -382,3 +382,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Built with ❤️ using FastAPI, Next.js, and OpenAI**
+#   H a c k a t h o 2 - p h a s e 3 - - t o d o - a i - c h a t b o t  
+ 
