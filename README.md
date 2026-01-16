@@ -103,7 +103,9 @@ AUTH_SECRET=your-secret-key-32-chars
 
 ## Screenshots
 
-The app features a modern dark theme with galaxy-inspired UI, animated robot mascot, and intuitive chat interface.
+![Todo AI Chatbot Screenshot](https://via.placeholder.com/800x500/0B0F14/7C7CFF?text=Todo+AI+Chatbot+-+Screenshot+Coming+Soon)
+
+*Dark theme with galaxy-inspired UI, animated robot mascot, and intuitive chat interface.*
 
 ## Author
 
