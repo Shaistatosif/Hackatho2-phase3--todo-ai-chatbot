@@ -1118,3 +1118,61 @@ body {
 .animate-glow-shift {
   animation: glow-shift 8s ease-in-out infinite;
 }
+
+/* ===== MOBILE PERFORMANCE OPTIMIZATIONS ===== */
+
+/* Reduce animations on mobile devices */
+@media (max-width: 768px) {
+  /* Disable heavy animations */
+  .galaxy-container,
+  .floating-orbs,
+  .rotating-circles,
+  .particles,
+  .nebula,
+  .shooting-star {
+    display: none !important;
+  }
+
+  /* Simplify star background */
+  .stars {
+    animation: none !important;
+  }
+
+  /* Disable orbit animations */
+  .orbit,
+  .planet {
+    display: none !important;
+  }
+
+  /* Reduce blur effects */
+  .orb {
+    display: none !important;
+  }
+
+  /* Simplify glow effects */
+  .robot-glow {
+    filter: none !important;
+    animation: none !important;
+  }
+
+  /* Disable ambient glow */
+  .signup-ambient-glow::before {
+    animation: none !important;
+  }
+
+  /* Keep essential animations only */
+  .animate-pulse {
+    animation: pulse 2s ease-in-out infinite;
+  }
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
